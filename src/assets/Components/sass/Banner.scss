@@ -1,0 +1,14 @@
+// filepath: c:\Users\MR.kettavan\Desktop\sr_brand_catalyst\frontend\src\assets\Components\sass\Banner.scss
+.carousel {
+    margin-top: 1rem;
+
+    .carousel-item img {
+        height: 400px; // Set a fixed height for the banners
+        object-fit: cover; // Ensure the image covers the entire area
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(1); // Make the controls visible on dark images
+    }
+}

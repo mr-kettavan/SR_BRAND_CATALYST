@@ -1,0 +1,51 @@
+.subscription-container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  
+    .subscription-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #a30887;
+      margin-bottom: 2rem;
+    }
+  
+    .subscription-details {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+  
+      .plan-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        color: #555;
+        margin: 0.5rem 0;
+      }
+  
+      h3 {
+        font-size: 1.2rem;
+        color: #a30887;
+        margin-top: 1.5rem;
+      }
+  
+      ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+  
+        li {
+          font-size: 1rem;
+          color: #555;
+          margin: 0.5rem 0;
+        }
+      }
+    }
+  }
